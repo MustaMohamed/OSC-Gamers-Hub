@@ -54,7 +54,7 @@ class Application extends Component {
               onInputChange={this.handlePost}
               inputValue={this.state.newPost}
             />
-            <Button title="Post" onPress={this.submitPost}/>
+            <Button title="Poooooost" onPress={this.submitPost}/>
           </View>
           <FlatList renderItem={this.postsRenderItem} data={posts} />
           
